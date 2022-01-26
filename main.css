@@ -1,0 +1,68 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+}
+.top-banner {
+    display: flex;
+    flex-direction: row;
+    background-color: grey;
+    justify-content: flex-end;
+    min-height: 8vh;
+}
+.bottom-banner {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    min-height: 8vh;
+    justify-content: space-evenly;
+}
+.location {
+    margin-right: 1200px;
+    margin-top: 24px;
+    color: white;
+    font-size: large;
+    text-decoration: none;
+}
+.top-banner > button {
+    margin: 13px;
+    margin-right: 18px;
+    color: white;
+    font-size: 17px;
+}
+i {
+    color: black;
+}
+.location:hover {
+    color: white;
+    text-decoration: underline;
+}
+.bottom-banner > img {
+    margin-right: 500px;
+    width: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.bottom-banner > p {
+    margin-top: 27px;    
+    margin-left: 440px;
+    color: white;
+    font-size: large;
+}
+.bottom-banner > button {
+    margin: 13px;
+}
+main {
+    min-height: 900px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(37, 37, 37);
+}
+main > div {
+    width: 820px;
+}
+.reservation {
+    width: 820px;
+    height: 900px;
+}
