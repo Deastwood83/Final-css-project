@@ -1,0 +1,16 @@
+.banner
+    @include banner()
+    .topbanner
+        display: $bannerDisplay
+        flex-direction: $row
+        background-color: $topColor
+        justify-content: $flexEnd
+        min-height: $bannerHeight
+        .location
+            margin-right: 1200px
+            margin-top: 24px
+            color: $fontColor
+            font-size: $largeFont
+            text-decoration: none
+        button
+            @include topbutton()
